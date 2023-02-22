@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "League Spartan";
+	font-style: normal;
+}
+body {
+	background: url("./assets/bg.svg") no-repeat;
+    background-size: 100% , cover;
+	background-attachment: fixed;
+}
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+#text-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+.text-area {
+	width: 445px;
+	height: 245px;
+}
+.text-area h1 {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 48px;
+	letter-spacing: -2px;
+	color: #512051;
+	margin-bottom: 16px;
+}
+.text-area p {
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 25px;
+	letter-spacing: -0.633333px;
+	color: #927b91;
+}
+#stars-content {
+	display: flex;
+	width: 50%;
+}
+.rated-area {
+	width: 540px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+}
+.rated {
+	background: #f7f2f7;
+	padding: 20px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	margin-bottom: 16px;
+}
+.positon-right1 {
+	position: relative;
+	left: 48px;
+}
+.positon-right2 {
+	position: relative;
+	left: 95px;
+}
+#depoiments {
+	display: flex;
+	width: 100%;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 16px;
+	color: #ffffff;
+}
+h3 {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 16px;
+	color: #ee69a4;
+}
+.depoiment {
+	background: #512051;
+	border-radius: 8px;
+	padding: 40px 32px 35px 32px;
+}
+.depoiment p {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 22px;
+	letter-spacing: -0.303571px;
+	color: #ffffff;
+	width: 286px;
+	height: 88px;
+}
+.profile-info {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 23px;
+	margin-bottom: 32px;
+}
+.name-info {
+	display: flex;
+	flex-direction: column;
+}
+.position-top1 {
+	position: relative;
+	top: 16px;
+}
+.position-top2 {
+	position: relative;
+	top: 32px;
+}
