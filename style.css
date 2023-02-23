@@ -24,7 +24,6 @@ main {
 }
 #text-content {
 	display: flex;
-	/* justify-content: center; */
 	align-items: center;
 	width: 50%;
     max-width: 555px;
