@@ -8,14 +8,14 @@
 }
 body {
 	background: url("./assets/bg.svg") no-repeat;
-    background-size: 100% , cover;
+	background-size: 100%, cover;
 	background-attachment: fixed;
 	width: 100vw;
 	height: 100vh;
 }
 main {
-    width: 100%;
-    height: 100%;
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -25,16 +25,15 @@ main {
 #text-content {
 	display: flex;
 	align-items: center;
-	width: 50%;
-    max-width: 555px;
+	width: 555px;
 }
 .text-area {
 	width: 445px;
 	height: 245px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .text-area h1 {
 	font-weight: 700;
@@ -53,9 +52,8 @@ main {
 }
 #stars-content {
 	display: flex;
-	width: 50%;
-    justify-content: flex-end;
-    max-width: 555px;
+	justify-content: flex-end;
+	width: 555px;
 }
 .rated-area {
 	width: 540px;
@@ -73,8 +71,8 @@ main {
 	align-items: center;
 	gap: 32px;
 	margin-bottom: 16px;
-    width: 445px;
-    height: 56px;
+	width: 445px;
+	height: 56px;
 }
 .positon-right1 {
 	position: relative;
@@ -135,4 +133,76 @@ h3 {
 .position-top2 {
 	position: relative;
 	top: 32px;
+}
+@media screen and (max-width: 1110px) {
+	main {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	#text-content {
+		align-items: center;
+		width: 80%;
+		justify-content: center;
+		align-items: center;
+		margin-top: 80px;
+	}
+	.text-area h1 {
+		text-align: center;
+		font-size: 40px;
+		line-height: 80%;
+		text-align: center;
+		letter-spacing: -1.42857px;
+	}
+	.text-area p {
+		text-align: center;
+		margin-bottom: 39px;
+	}
+	#stars-content {
+		width: 80%;
+		justify-content: center;
+		margin-bottom: 49px;
+	}
+	.rated-area {
+		flex-direction: column;
+		width: 100%;
+	}
+	.rated {
+		padding: 15px;
+		flex-direction: column;
+		gap: 15px;
+		height: auto;
+		width: 100%;
+	}
+	.positon-right1 {
+		position: relative;
+		left: 0;
+	}
+	.positon-right2 {
+		position: relative;
+		left: 0;
+	}
+	#depoiments {
+		flex-direction: column;
+		width: 80%;
+		align-items: baseline;
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+	.depoiment {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+	.depoiment p {
+		width: 100%;
+	}
+	.position-top1 {
+		position: relative;
+		top: 0;
+	}
+	.position-top2 {
+		position: relative;
+		top: 0;
+	}
 }
